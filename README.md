@@ -1,12 +1,10 @@
 ```mermaid
 %% Diagrama de casos de uso - Sistema de Examen
 
-%% Definición de actores
 actor Usuario
 actor "Sistema de administración" as admin
 actor "Sistema de seguridad" as seguridad
 
-%% Definición de módulos
 classDiagram
     class "Módulo de Usuario" {
         +Iniciar Sesión
@@ -48,5 +46,3 @@ admin --> "Administrar recursos de preparación"
 
 seguridad --> "Validar identidad de usuario"
 seguridad --> "Verificar intentos de acceso y autenticación"
-
-
