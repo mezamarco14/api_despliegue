@@ -49,4 +49,4 @@ admin --> "Administrar recursos de preparación"
 seguridad --> "Validar identidad de usuario"
 seguridad --> "Verificar intentos de acceso y autenticación"
 
-... (aquí va el código que te proporcioné)
+
